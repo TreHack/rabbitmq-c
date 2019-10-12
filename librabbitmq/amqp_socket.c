@@ -32,6 +32,8 @@
  * SOFTWARE.
  * ***** END LICENSE BLOCK *****
  */
+#define HAVE_SELECT
+#define AMQ_PLATFORM "@CMAKE_SYSTEM_NAME@"
 
 #ifdef HAVE_CONFIG_H
 #include "config.h"
